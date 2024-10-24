@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Header Section */
+.navbar {
+    background-color: #002855;
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #e76e3c;
+    border-radius: 10px;
+}
+
+.navbar ul li a {
+    padding: 10px;
+}
+
+/* Breadcrumb Styling */
+.breadcrumb {
+    background-color: #FFFF !important;
+    padding: 10px 15px !important;
+    margin-bottom: 0px !important;
+    font-size: 1rem;
+}
+
+.breadcrumb-item a {
+    color: #59331D;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active a {
+    color: #D98555 !important;
+}
+
+/* Main content should take full available height except the footer */
+.main-content {
+    flex: 1;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-header {
+    color: #59331D;
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-details {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.price-info {
+    margin-top: 1.5rem;
+}
+
+.price-info ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.price-info ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Custom button color */
+.btn-custom {
+    background-color: #59331D !important;
+    border-color: #59331D !important;
+    color: white !important;
+}
+
+.btn-custom:hover {
+    background-color: #D98555 !important;
+    border-color: #D98555 !important;
+}
+
+/* Footer Section */
+footer {
+    background-color: #002855;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer small {
+    font-size: 0.9rem;
+}
+
+/* Responsive font size */
+@media (max-width: 768px) {
+    .breadcrumb {
+        font-size: 0.9rem !important;
+        margin: 0px !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .breadcrumb {
+        font-size: 0.8rem !important;
+        margin: 0px !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
